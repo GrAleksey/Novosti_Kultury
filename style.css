@@ -1,0 +1,264 @@
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+}
+/*--------header--------*/
+
+header,
+.container_footer{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center ;
+	flex-wrap: wrap;
+}
+a,
+a:link,
+a:visited,
+a:active{
+	text-decoration: none;
+	color:#000;
+}
+ a:hover {    
+    color: #FF7931;   
+}
+
+
+ h1{
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	margin-bottom: 30px;
+	flex-basis: 100%;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	flex-grow: 0;
+}
+.nav div{
+	text-transform: uppercase;
+}
+.nav div:not(:first-child) {
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+/*------------------main------------------*/
+
+/*--------promo--------*/
+.promo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url(img/promo/Hotel-11.svg) center no-repeat;
+	height: 464px;
+	color:#FFF;	
+	box-sizing: border-box;
+
+}
+
+.label {
+	margin-top: 46px;
+}
+
+.promo-heading {
+	font-family: Roboto;
+	font-size: 72px;
+	line-height: 84px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 32px;
+	margin-bottom: 139px;
+	}
+
+
+.promo-text {
+	font-family: Roboto;
+	text-align: center;
+	font-size: 14px;
+	line-height:21px;
+	font-weight: 300;
+	}
+
+/*--------rewiew--------*/
+
+.review-title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 44px;
+	margin-bottom: 20px;
+}
+
+.review{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.conteiner_review{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1169px;
+}
+
+.review-items {
+	position: relative;
+	flex-basis: 20%;
+	margin-left: 30px;
+}
+
+.review-items h3 {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.review-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	max-width: 370px;
+}
+
+/*--------tickets--------*/
+.tickets {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	height: 556px;
+	background-color: #F7F7F7;
+
+}
+.circle{
+	border-radius:  50%;
+	background-color: #FFF;
+	width: 707px;
+	height: 707px;
+	margin-top: -75px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding-top: 100px;
+}
+.tickets_item,
+.tickets_title {
+	text-align: center;
+}
+
+.tickets_title{
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.tickets_header{
+	padding-top: 35px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.tickets_text{
+	padding-top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	width:370px;
+}
+
+.border_bottom {
+	margin-top: 25px;
+	width: 100px;
+	opacity: 0.4;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.img_watch{
+	padding-top: 25px;
+}
+
+/*--------footer--------*/
+
+footer {
+	position: relative;
+	margin-top: 52px;
+	color:#FFF;
+	background-color: #575757; 
+	height: 295px;
+}
+
+footer h1 {
+	font-size: 28px;
+}
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:active{
+	text-decoration: none;
+	color:#FFF;;
+}
+footer  a:hover {    
+    color: #FF7931;   
+}
+
+.container_footer::after{
+	content: '';
+	width: 1170px;
+	opacity: 0.4;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.footer_img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center
+}
+.footer_img a{
+	margin-top: 42px;
+	width: 47px;
+	height: 47px;
+	background-color: #FFF;
+	margin-right: 14px;
+}
+
+.inst {
+	background: url(img/footer/icons_2.svg) center no-repeat;
+}
+.fb {
+	background: url(img/footer/facebook_icon.svg) center no-repeat;
+}
+
+.tw{
+	background: url(img/footer/twitter_icon.svg) center no-repeat;
+}
